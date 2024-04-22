@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Projeto Integrador Trandisciplinar em Análise Desenvolvimento de Sistemas I - Turma_001</h1>
+    <p>Aluno: Pedro Henrique R. Sodré</p>
+    <p>RGM: 37001701</p>
+    <div class="login-container">     
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Email</label>
+                <input type="email" id="username" name="username" required> 
+            </div>
+            <div class="input-group">
+                <label for="password">Senha</label> 
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Entrar</button> 
+        </form>
+        <p id="emailErrorMessage" class="error-message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
